@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">eta
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cakes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
@@ -114,5 +115,65 @@
                 </div>
         </div>
     </section>
+    <section class="personal">
+        <img class="container">
+            <div class="personal__inner">
+                <div class="personal__content">
+                    <p class="personal__content-text">Кто будет готовить?</p>
+                    <h2 class="personal__content-title">Лично приготовлю и всё красиво упакую для вашего события</h2>
+                    <ul class="personal__content-list">
+                        <li class="personal__content-direction">Проконсультирую по выбору капкейков и придумаю нестандартную идею</li>
+                        <li class="personal__content-direction">Приготовлю капкейки для вашего события, которые обязательно всем понравятся</li>
+                        <li class="personal__content-direction">Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>
+                    </ul>
+                    <a href="#" class="personal__content-link">Задать вопрос Юлии</a>
+                </div>
+                <div class="personal__content-img">
+                    <img class="personal__images" src="/HTML/Photo/personal-img.png">
+                    <p class="personal__content-name">Юлия Кондратьева</p>
+                    <p class="personal__content-text-name">ваш кондитер</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+    <section class="comments">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                        <div class="_comment">
+                            <img class="comment__icon" src="/HTML/Photo/comment-icon.svg">
+                            <h2 class="comment__title">«Результат дико порадовал, друзья были в восторге»</h2>
+                            <p class="comment__text">«Заказала капкейки, как подарок на новый год. Делать заказ было легко и приятно, ну а результат дико порадовал, друзья были в восторге. И оформление, и на вкус капкейки были просто замечательные. Обязательно буду заказывать еще)) Уже строю планы, чтобы попробовать все начинки. Они восхитительны!) Даже кушать было жалко, такая красота!) </p>
+                            <button class="comment__button">Читать отзыв полностью</button>
+                        </div>
+                        <div class="comment__images">
+                            <img class="comment__img-personal" src="/HTML/Photo/personal_comment.jpg">
+                            <h3 class="comment__name">Ирина Ларионова</h3>
+                            <p class="content__city">Санкт-Петербург</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="_comment">
+                            <img class="comment__icon" src="/HTML/Photo/comment-icon.svg">
+                            <h2 class="comment__title">«Результат дико порадовал, друзья были в восторге»</h2>
+                            <p class="comment__text">«Заказала капкейки, как подарок на новый год. Делать заказ было легко и приятно, ну а результат дико порадовал, друзья были в восторге. И оформление, и на вкус капкейки были просто замечательные. Обязательно буду заказывать еще)) Уже строю планы, чтобы попробовать все начинки. Они восхитительны!) Даже кушать было жалко, такая красота!) </p>
+                            <button class="comment__button">Читать отзыв полностью</button>
+                        </div>
+                        <div class="comment__images">
+                            <img class="comment__img-personal" src="/HTML/Photo/personal_comment.jpg">
+                            <h3 class="comment__name">Ирина Ларионова</h3>
+                            <p class="content__city">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/JS/main.js"></script>
 </body>
 </html>
